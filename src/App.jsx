@@ -6,6 +6,7 @@ import Divisor from './components/Divisor'
 import About from './components/About'
 import Badge from './components/Badge'
 import Service from './components/ServiceContainer'
+import Operations from './components/Operations'
 import Hierarchy from './components/Hierarchy'
 
 function App() {
@@ -18,8 +19,13 @@ function App() {
       <About />
       <Badge />
       <Service />
+      <Operations />
       <Hierarchy />
     </div>
+  )
+}
+
+export default App
   )
 }
 

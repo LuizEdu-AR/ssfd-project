@@ -1,211 +1,209 @@
 .hierarchy-main-container {
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 56px 56px 72px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--first-color);
+    width: 100%;
+    padding: 50px 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--first-color);
+    gap: 25px;
 }
 
 .hierarchy-header {
-  width: 100%;
-  margin-bottom: 42px;
-  text-align: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px
 }
 
 .h3-hierarchy {
-  color: var(--third-color);
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 8px;
+    color: var(--third-color);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .h2-hierarchy {
-  color: #1a1a1a;
-  font-size: 50px;
-  line-height: 1.05;
-  margin-bottom: 16px;
+    color: #1a1a1a;
+    font-size: 36px;
+    line-height: 1.05;
 }
 
 .red {
-  color: var(--third-color);
+    color: var(--third-color);
 }
 
 .p-hierarchy {
-  color: #7a7a7a;
-  font-size: 13px;
-  line-height: 1.6;
-  max-width: 680px;
-  margin: 0 auto;
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 .hierarchy-content {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 48px;
-  align-items: flex-start;
-  margin-bottom: 28px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 48px;
+    align-items: flex-start;
 }
 
 .hierarchy-gallery {
-  display: flex;
-  gap: 20px;
-  align-items: stretch;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
 }
 
 .gallery-left {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
 }
 
 .gallery-image-small {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  border: 3px solid #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .gallery-center {
-  flex: 1;
-  min-width: 380px;
+    flex: 1;
+    min-width: 380px;
 }
 
 .gallery-image-main {
-  width: 100%;
-  height: 640px;
-  object-fit: cover;
-  display: block;
-  border: 3px solid #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hierarchy-sidebar {
-  background: #fff;
-  border-left: 4px solid var(--third-color);
-  padding: 20px;
+    background: #fff;
+    border-left: 4px solid var(--third-color);
+    padding: 20px;
 }
 
 .ranks-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 .rank-item {
-  background: none;
-  border: none;
-  border-left: 4px solid transparent;
-  padding: 14px 12px;
-  text-align: left;
-  color: #6a6a6a;
-  font-size: 12px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  padding-left: 12px;
+    background: none;
+    border: none;
+    border-left: 4px solid transparent;
+    padding: 14px 12px;
+    text-align: left;
+    color: #6a6a6a;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding-left: 12px;
 }
 
 .rank-item:hover {
-  background: #f9f9f9;
-  color: #3a3a3a;
+    background: #f9f9f9;
+    color: #3a3a3a;
 }
 
 .rank-item.active {
-  background: var(--third-color);
-  color: var(--first-color);
-  border-left-color: var(--third-color);
-  padding-left: 12px;
+    background: var(--third-color);
+    color: var(--first-color);
+    border-left-color: var(--third-color);
+    padding-left: 12px;
 }
 
 
 
 @media (max-width: 1200px) {
-  .hierarchy-main-container {
-    padding: 48px 28px 62px;
-  }
+    .hierarchy-main-container {
+        padding: 48px 28px 62px;
+    }
 
-  .hierarchy-content {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
+    .hierarchy-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
 
-  .gallery-center {
-    min-width: auto;
-  }
+    .gallery-center {
+        min-width: auto;
+    }
 
-  .gallery-image-main {
-    height: 480px;
-  }
+    .gallery-image-main {
+        height: 480px;
+    }
 
-  .hierarchy-sidebar {
-    width: 100%;
-    border-left: none;
-    border-top: 4px solid var(--third-color);
-  }
+    .hierarchy-sidebar {
+        width: 100%;
+        border-left: none;
+        border-top: 4px solid var(--third-color);
+    }
 
-  .ranks-menu {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-  }
+    .ranks-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
 
-  .rank-item {
-    border-left: none;
-    border-top: 3px solid transparent;
-  }
+    .rank-item {
+        border-left: none;
+        border-top: 3px solid transparent;
+    }
 
-  .rank-item.active {
-    border-left: none;
-    border-top-color: var(--third-color);
-  }
+    .rank-item.active {
+        border-left: none;
+        border-top-color: var(--third-color);
+    }
 }
 
 @media (max-width: 768px) {
-  .hierarchy-main-container {
-    padding: 42px 20px 52px;
-  }
+    .hierarchy-main-container {
+        padding: 42px 20px 52px;
+    }
 
-  .h2-hierarchy {
-    font-size: 38px;
-  }
+    .h2-hierarchy {
+        font-size: 38px;
+    }
 
-  .hierarchy-gallery {
-    flex-direction: column;
-  }
+    .hierarchy-gallery {
+        flex-direction: column;
+    }
 
-  .gallery-left {
-    width: 100%;
-    flex-direction: row;
-    gap: 12px;
-  }
+    .gallery-left {
+        width: 100%;
+        flex-direction: row;
+        gap: 12px;
+    }
 
-  .gallery-image-small {
-    height: 160px;
-  }
+    .gallery-image-small {
+        height: 160px;
+    }
 
-  .gallery-image-main {
-    height: 320px;
-  }
+    .gallery-image-main {
+        height: 320px;
+    }
 
-  .ranks-menu {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .ranks-menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-  .p-hierarchy {
-    font-size: 12px;
-  }
+    .p-hierarchy {
+        font-size: 12px;
+    }
 
-  .hierarchy-description {
-    font-size: 12px;
-  }
+    .hierarchy-description {
+        font-size: 12px;
+    }
 }
