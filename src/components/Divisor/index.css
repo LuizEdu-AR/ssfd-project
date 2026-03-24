@@ -1,0 +1,18 @@
+.divisor {
+  position: relative;
+  width: 100%;
+  height: 92px;
+  background: #f4f4f4;
+  overflow: hidden;
+}
+
+.divisor::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  background: var(--third-color);
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 22% 100%, 0 45%);
+}
