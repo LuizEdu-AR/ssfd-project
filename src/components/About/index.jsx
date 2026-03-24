@@ -8,7 +8,7 @@ import AboutImg2 from '../../assets/img/AboutImg2.png'
 
 const About = () => {
   return (
-    <div className='about-main-container'>
+        <section id='about' className='about-main-container'>
             <div className="first-about-container">
                 <h3 className="h3-about">Sobre o SSFD</h3>
                 <h2 className="h2-about">Estamos Sempre <span className='red'>Prontos</span> Dia e Noite</h2>
@@ -40,7 +40,7 @@ const About = () => {
                     <img src={AboutImg1} alt="Equipe SSFD destaque" className='about-collage-overlay' />
                 </div>
             </div>
-    </div>
+        </section>
   )
 }
 

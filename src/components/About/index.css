@@ -3,7 +3,7 @@
 	padding: 50px 104px;
 	display: grid;
 	grid-template-columns: minmax(520px, 1fr) minmax(280px, 430px);
-	gap: 36px;
+	gap: 25px;
 	align-items: center;
 	justify-content: space-between;
 	background-color: #f4f4f4;
@@ -12,7 +12,7 @@
 .first-about-container {
 	display: flex;
 	flex-direction: column;
-	gap: 14px;
+	gap: 25px;
 	max-width: 620px;
 }
 

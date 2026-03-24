@@ -15,7 +15,7 @@ const Operations = () => {
   ]
 
   return (
-    <section className='operations-section'>
+    <section id='operations' className='operations-section'>
       <div className='operations-container'>
         <div className='operations-header'>
           <p className='operations-label'>Operações</p>

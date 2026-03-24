@@ -2,7 +2,7 @@
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 54px 56px 62px;
+	padding: 50px 56px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -44,7 +44,7 @@
 	padding: 5px 12px;
 	border-radius: 99px;
 	cursor: pointer;
-	transition: all 0.2s ease;
+	transition: all var(--transition-duration) var(--transition-easing);
 }
 
 .service-button:hover {

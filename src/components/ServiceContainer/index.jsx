@@ -50,7 +50,7 @@ const Service = () => {
   const activeService = services.find((service) => service.id === activeServiceId) || services[0]
 
   return (
-    <section className='service-main-container'>
+    <section id='services' className='service-main-container'>
       <h3 className="h3-service">Services</h3>
       <h2 className="h2-service">Nossos <span className='red'>Deveres</span> e Funções</h2>
 

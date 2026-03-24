@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+.app-main-container {
+  padding-top: 80px;
+}
+
 body{
   background-color: #f4f4f4;
 }
@@ -14,6 +26,38 @@ body{
   --second-color: #000;
   --third-color: #F01B28;
   --fourth-color: #545454;
+  --transition-duration: 0.42s;
+  --transition-easing: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+a,
+button,
+input,
+textarea,
+select,
+img,
+.main-button,
+.where-button,
+.nav-link,
+.service-button,
+.rank-item,
+.recruitment-discord-link {
+  transition:
+    color var(--transition-duration) var(--transition-easing),
+    background-color var(--transition-duration) var(--transition-easing),
+    border-color var(--transition-duration) var(--transition-easing),
+    box-shadow var(--transition-duration) var(--transition-easing),
+    transform var(--transition-duration) var(--transition-easing),
+    opacity var(--transition-duration) var(--transition-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .main-button{

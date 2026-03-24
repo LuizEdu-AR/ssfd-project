@@ -109,7 +109,7 @@
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all var(--transition-duration) var(--transition-easing);
     padding-left: 12px;
 }
 

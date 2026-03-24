@@ -69,7 +69,7 @@ const Hierarchy = () => {
   const activeRank = ranks.find((rank) => rank.id === activeRankId) || ranks[0]
 
   return (
-    <section className='hierarchy-main-container'>
+    <section id='hierarchy' className='hierarchy-main-container'>
       <div className='hierarchy-header'>
         <h3 className='h3-hierarchy'>Hierarquia</h3>
         <h2 className='h2-hierarchy'>Conheça Nossos <span className='red'>Bombeiros</span></h2>

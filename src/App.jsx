@@ -8,6 +8,9 @@ import Badge from './components/Badge'
 import Service from './components/ServiceContainer'
 import Operations from './components/Operations'
 import Hierarchy from './components/Hierarchy'
+import Recruitment from './components/Recruitment'
+import Homage from './components/Homage'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
       <Service />
       <Hierarchy />
       <Operations />
+      <Recruitment />
+      <Homage />
+      <Footer />
     </div>
   )
 }
