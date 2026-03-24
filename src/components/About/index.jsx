@@ -3,7 +3,8 @@ import './index.css'
 import About1 from '../../assets/img/about1.png'
 import About2 from '../../assets/img/about2.png'
 import About3 from '../../assets/img/about3.png'
-import AboutCollage from '../../assets/img/MainPhoto.png'
+import AboutImg1 from '../../assets/img/AboutImg1.png'
+import AboutImg2 from '../../assets/img/AboutImg2.png'
 
 const About = () => {
   return (
@@ -15,15 +16,15 @@ const About = () => {
                 <div className="about-options">
                     <div className="about-card">
                         <img src={About1} alt="about1" className='about-img' />
-                        <h3 className="h3-card">Supressao de Incendios</h3>
+                        <h3 className="h3-card">Supressão de Incendios</h3>
                     </div>
                     <div className="about-card">
                         <img src={About2} alt="about2" className='about-img' />
-                        <h3 className="h3-card">Atendimento de Emergencias</h3>
+                        <h3 className="h3-card">Atendimento de Emergências</h3>
                     </div>
                     <div className="about-card">
                         <img src={About3} alt="about3" className='about-img' />
-                        <h3 className="h3-card">Servico de Resgate</h3>
+                        <h3 className="h3-card">Serviço de Resgate</h3>
                     </div>
                 </div>
             </div>
@@ -35,8 +36,8 @@ const About = () => {
                         <span>Experiencia</span>
                     </div>
 
-                    <img src={AboutCollage} alt="Equipe SSFD" className='about-collage-main' />
-                    <img src={AboutCollage} alt="Equipe SSFD destaque" className='about-collage-overlay' />
+                    <img src={AboutImg2} alt="Equipe SSFD" className='about-collage-main' />
+                    <img src={AboutImg1} alt="Equipe SSFD destaque" className='about-collage-overlay' />
                 </div>
             </div>
     </div>

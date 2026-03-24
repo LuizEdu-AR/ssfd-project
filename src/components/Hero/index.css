@@ -40,6 +40,13 @@
     gap: 15px;
 }
 
+.hero-options a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .where-button{
     background: none;
     border: 1px solid var(--first-color);
