@@ -16,9 +16,12 @@ const Header = () => {
   )
 
   const [activeSection, setActiveSection] = useState('home')
+  const [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
     const resolveActiveSection = () => {
+      setIsScrolled(window.scrollY > 8)
+
       const currentScroll = window.scrollY + 140
       let currentSection = 'home'
 
@@ -41,7 +44,7 @@ const Header = () => {
   }, [navItems])
 
   return (
-    <header className='navbar-main-container'>
+    <header className={`navbar-main-container ${isScrolled ? 'scrolled' : ''}`}>
       <a href='#home' aria-label='Ir para o inicio' className='logo-link'>
         <img src={LogoSSFD} alt="Logo SSFD" className='logo' />
       </a>
