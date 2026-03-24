@@ -20,7 +20,7 @@ const Operations = () => {
         <div className='operations-header'>
           <p className='operations-label'>Operações</p>
           <h2 className='operations-title'>
-            Nossa Galeria de <span className='highlight'>Heróis</span>
+            Nossa Galeria de <span className='red'>Heróis</span>
           </h2>
         </div>
 

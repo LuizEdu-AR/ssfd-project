@@ -19,8 +19,8 @@ function App() {
       <About />
       <Badge />
       <Service />
-      <Operations />
       <Hierarchy />
+      <Operations />
     </div>
   )
 }
