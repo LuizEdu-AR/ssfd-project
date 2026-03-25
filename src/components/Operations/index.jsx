@@ -1,17 +1,17 @@
 import React from 'react'
 import './index.css'
-import MainPhoto from '../../assets/img/MainPhoto.png'
-import AboutImg1 from '../../assets/img/AboutImg1.png'
-import AboutImg2 from '../../assets/img/AboutImg2.png'
+import { Images } from '../../assets/img'
 
 const Operations = () => {
   const images = [
-    MainPhoto,
-    AboutImg1,
-    AboutImg2,
-    MainPhoto,
-    AboutImg1,
-    AboutImg2,
+    Images.AboutImg1,
+    Images.AboutImg2,
+    Images.MainPhoto,
+    Images.Cadete1,
+    Images.Bomb1,
+    Images.Bomb2,
+    Images.Lieutenant,
+    Images.Captain,
   ]
 
   return (
